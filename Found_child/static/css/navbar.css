@@ -1,0 +1,28 @@
+
+.navbar-brand{
+    color: #14213D;
+    background-color: #FCA311;
+    border-radius: 5px;
+}
+.navbar{
+    background-color: #14213D;
+    padding: 0.5em;
+    padding-left: 7em;
+}
+ul{
+    padding-right: 7em;
+}
+li{
+    padding: 0.4em;
+    font: 1.5em sans-serif;
+    color: #FCA311;
+    margin-left: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #FCA311;
+    color: #14213D;
+}
+
+

@@ -1,0 +1,88 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 14px;
+	background: #f2f2f2;
+}
+.form_wrapper {
+	background: #fff;
+	width: 75%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 4% auto 0;
+	position: relative;
+	z-index: 1;
+	border-top: 10px solid #FCA311;
+    border-radius: 4px;
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+}
+.title_container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+form div{
+    margin-top:1rem;
+}
+.right-side{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-right: 20rem;
+}
+input[type=text], [type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: medium;
+    box-sizing: border-box;
+  }
+.pic{
+    height: 45rem;
+    width: 45rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+}
+.active{
+    width: 140%;
+    background-color:#14213D ;
+}
+.col_half{
+    background-color: #FCA311;
+}
+.button{
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+    color: #FCA311;
+    background-color: #14213D;
+    border-radius: 5px;
+    margin-left: 25rem;
+}
+.hi{
+    color: red;
+    background-color: white;
+    font-size:x-large;
+}
+
+.input_field{
+    display: flex;
+}

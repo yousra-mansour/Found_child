@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/after-found.css' %}" type="text/css">
+    
+    <title>Document</title>
+</head>
+<body>
+  {% block content%}
+    <div class="header-custom email-signup-thankyou">
+        <div class="content">
+          <div class="left-hole"></div>
+          <div class="right-hole"></div>
+          <div class="main-content">
+            <h1>Success! You've just sent all info!</h1>
+            <p>Thank you for your help, it means a lot to help people in need. We really appreciate you giving us a moment of your serious time.</p>
+            <p class="strong"></p>
+      
+            <h3>Next steps & what to expect:</h3>
+            <ul>
+              <li>Try to contact the police to keep the child safe</li>
+              <li>Expect a call from anyone who relates to the child</li>
+              <li>The picture helps to improve the ML more</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="{% url 'home' %}"><button> Back to Home</button></a>
+            <button>Read more About us</button>
+          </div>
+        </div>
+      </div>
+      {% endblock content%}
+
+</body>
+</html>
