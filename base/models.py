@@ -1,11 +1,9 @@
 from django.db import models
-from django.core.validators import RegexValidator
 
 class found_child_data(models.Model):
     person_name = models.CharField(max_length=100)
     child_name = models.CharField(max_length=100)
     phone_number = models.CharField( max_length=12) 
-    # county
     address = models.CharField(max_length=100)
     email = models.CharField(max_length=254, blank=True, null = True)
     img = models.ImageField(upload_to='found_photos')
@@ -19,7 +17,6 @@ class missing_child_data(models.Model):
     person_name = models.CharField(max_length=100)
     child_name = models.CharField(max_length=100)
     phone_number = models.CharField( max_length=12) 
-    # county
     address = models.CharField(max_length=100)
     email = models.CharField(max_length=254, blank=True, null = True)
     img = models.ImageField(upload_to='missing_photos')

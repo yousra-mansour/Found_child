@@ -9,5 +9,5 @@ urlpatterns = [
     path("child/'<int:pk>'", views.after_missing_sccuess, name='after_missing_sccuess'),
     path("parent-child/'<int:pk>'", views.after_found_sccuess, name='after_found_sccuess'),
     path('notFound', views.after_mising_fail, name='after_mising_fail'),
-    
+    path('about-us', views.about_us, name='about_us'),
 ]
